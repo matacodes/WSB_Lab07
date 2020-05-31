@@ -9,6 +9,7 @@ public class Zadanie1 {
 				System.out.println("args[" + i + "] is '" + args[i] + "'");
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.toString());
 			System.err.println("Quiting...");
 		}
 	}
